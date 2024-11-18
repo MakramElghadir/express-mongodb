@@ -1,0 +1,25 @@
+{
+  "name": "express-mongodb",
+  "version": "1.0.0",
+  "description": "express-mongodb",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MakramElghadir/express-mongodb.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Makram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MakramElghadir/express-mongodb/issues"
+  },
+  "homepage": "https://github.com/MakramElghadir/express-mongodb#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
