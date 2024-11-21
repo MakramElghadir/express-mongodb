@@ -20,8 +20,8 @@ def test_delete_usuario(name):
     response = requests.delete(f'http://localhost:3000/usuarios/{name}')
     assert response.status_code == 204
 
-test_get_usuarios();
-test_post_usuarios('test', 'test');
-test_get_usuario(1);
-test_put_usuario('test', 'test2', 'test2');
-test_delete_usuario("test2");
+test_get_usuarios()
+test_post_usuarios('test', 'test')
+test_get_usuario(1)
+test_put_usuario('test', 'test2', 'test2')
+test_delete_usuario("test2")
